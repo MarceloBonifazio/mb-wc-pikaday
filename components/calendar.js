@@ -1,5 +1,6 @@
 import { LitElement, html, css } from 'lit-element';
 import Pikaday from  'pikaday';
+import moment from 'moment';
 
 const i18n = {
   previousMonth: 'Mês anterior',
@@ -34,6 +35,7 @@ class Component extends LitElement {
       bound: false,
       format: "DD/MM/YYYY",
       i18n: i18n,
+      minDate: moment().toDate(),
       container: this.shadowRoot.getElementById('container')
     });
   }
