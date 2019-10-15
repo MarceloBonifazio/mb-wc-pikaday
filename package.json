@@ -1,0 +1,14 @@
+{
+  "name": "js-biu4uf",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "2.3.0",
+    "lit-element": "2.2.1",
+    "moment": "^2.24.0",
+    "pikaday": "1.8.0",
+    "pwa-helpers": "0.9.1",
+    "redux": "4.0.4",
+    "redux-thunk": "2.3.0"
+  }
+}
